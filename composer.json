@@ -9,13 +9,22 @@
             "email": "boudydegeer@webartisans.es"
         }
     ],
-    "minimum-stability": "dev",
     "require": {},
+    "autoload": {
+        "psr-4": {
+            "WebArtisans\\DockerLaravel\\": "src"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
     "extra": {
         "laravel": {
             "providers": [
                 "WebArtisans\\DockerLaravel\\Providers\\DockerLaravelServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
