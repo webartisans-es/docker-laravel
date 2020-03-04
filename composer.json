@@ -13,10 +13,7 @@
     "autoload": {
         "psr-4": {
             "WebArtisans\\DockerLaravel\\": "src"
-        },
-        "files": [
-            "src/helpers.php"
-        ]
+        }
     },
     "extra": {
         "laravel": {
