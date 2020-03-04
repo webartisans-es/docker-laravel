@@ -5,6 +5,7 @@ namespace WebArtisans\DockerLaravel\Providers;
 use Illuminate\Support\ServiceProvider;
 use WebArtisans\DockerLaravel\Commands\DockerRemoveCommand;
 use WebArtisans\DockerLaravel\Commands\DockerServeCommand;
+use WebArtisans\DockerLaravel\Commands\DockerStartCommand;
 use WebArtisans\DockerLaravel\Commands\DockerStopCommand;
 
 class DockerLaravelServiceProvider extends ServiceProvider
@@ -36,6 +37,7 @@ class DockerLaravelServiceProvider extends ServiceProvider
             $this->commands([
                 DockerServeCommand::class,
                 DockerStopCommand::class,
+                DockerStartCommand::class,
                 DockerRemoveCommand::class,
             ]);
         }
