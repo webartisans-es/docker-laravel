@@ -38,3 +38,6 @@ To remove the container
 ```bash
 php artisan docker:remove
 ```
+
+
+If you would like to contribute, you're welcome to do so.
