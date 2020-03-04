@@ -3,7 +3,7 @@
 
 return [
 
-    "namespace" => env("DOCKER_LARAVEL_NAMESPACE", "laravel"),
+    "namespace" => env("DOCKER_LARAVEL_NAMESPACE", null),
 
     "app" => env("APP_NAME", "app"),
 

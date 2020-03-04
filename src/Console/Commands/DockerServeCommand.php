@@ -103,8 +103,8 @@ class DockerServeCommand extends Command
 
     protected function getDefaultContainerName()
     {
-        $namespace = config('docker-laravel.namespace');
-        $name = config('docker-laravel.name');
+        $namespace = strtolower(config('docker-laravel.namespace'));
+        $name = strtolower(config('docker-laravel.app'));
 
         if ($namespace) {
             $namespace .= '-';
