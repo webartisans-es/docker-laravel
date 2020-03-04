@@ -7,7 +7,7 @@ This is meant only for development purposes.
 ### Installation
 
 ```bash
-composer require wartisans/docker-laravel --save-dev
+composer require wartisans/docker-laravel --dev
 ```
 
 if you want to change any of the configurations you can publish the `docker-laravel.php` configuration, if not, it will just take the defaults.
