@@ -1,0 +1,21 @@
+{
+    "name": "wartisans/docker-laravel",
+    "description": "Simple docker container for laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Boudy de Geer",
+            "email": "boudydegeer@webartisans.es"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "WebArtisans\\DockerLaravel\\Providers\\DockerLaravelServiceProvider"
+            ]
+        }
+    }
+}
